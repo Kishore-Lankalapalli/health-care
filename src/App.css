@@ -36,3 +36,181 @@
     transform: rotate(360deg);
   }
 }
+.patient-blog-container {
+  height: 100vh;
+  width: 100%;
+}
+.patient-container {
+  display: flex;
+}
+.main-container {
+  width: 75%;
+  height: 100vh;
+  /* background-color: #0b111c; */
+  background-image: url("https://res.cloudinary.com/di8upujpz/image/upload/v1682674876/photo-1529485726363-95c8d62f656f_yuglxg.jpg");
+  background-size: cover;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.tabs-container {
+  margin-top: 30px;
+}
+.tab-button {
+  height: 60px;
+  width: 180px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #1a211c;
+  color: #fff;
+  border-width: 0px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.active-tab-button {
+  background-color: #2ce85e;
+}
+.patient-file-container {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.appointments-dates-container {
+  background-color: transparent;
+  border: 1px solid #fff;
+  height: 250px;
+  width: 600px;
+  margin-left: 20px;
+  margin-top: 40px;
+  padding: 10px 15px 15px 15px;
+  border-radius: 7px;
+}
+.appointments-title-text {
+  font-family: "Bree Serif";
+  font-size: 30px;
+  color: #fff;
+}
+.date-item {
+  list-style-type: none;
+  font-family: "Roboto";
+  font-size: 20px;
+  margin: 30px;
+  color: #fff;
+}
+.todo-list-container {
+  margin-left: 20px;
+  margin-top: 40px;
+  border: 1px solid #fff;
+  border-radius: 7px;
+
+  height: 400px;
+  width: 800px;
+  overflow-y: scroll;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.daily-todo-list-heading {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #fff;
+  margin: 30px;
+}
+.tasks-list-container {
+  list-style-type: none;
+}
+.task-name {
+  font-family: "Roboto";
+  font-size: 17px;
+  color: #fff;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+}
+.task-details-container {
+  display: flex;
+}
+.task-time {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bolder;
+  color: #fff;
+  margin-right: 20px;
+}
+.todo-button {
+  background-color: turquoise;
+  border-width: 0px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+  width: 70px;
+  border-radius: 7px;
+}
+.todo-done-button {
+  background-color: transparent;
+}
+.medicines-container {
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #fff;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.medicine-text {
+  font-family: "Roboto";
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.medicines-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.add-task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-task-button {
+  height: 40px;
+  width: 90px;
+  background-color: #282c34;
+  color: #fff;
+  border-width: 0px;
+}
+.add-task-button:hover {
+  background-color: aqua;
+}
+.task-create-container {
+  min-height: 200px;
+  width: 400px;
+  background-color: #fff;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.hours-input {
+  height: 25px;
+  width: 50px;
+  margin-top: 8px;
+}
+.form-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.task-input {
+  height: 25px;
+  width: 250px;
+  margin-top: 8px;
+}
+.task-submit-button {
+  background-color: #61dafb;
+  border-width: 0px;
+  color: #1a211c;
+  height: 30px;
+  width: 70px;
+}

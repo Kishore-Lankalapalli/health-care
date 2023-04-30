@@ -1,0 +1,38 @@
+.patient-details-container {
+  width: 25%;
+  height: 100vh;
+  background-color: #18202e;
+  border: 3px solid #c7d6ed;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 0px 10px;
+}
+.patient-name-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.patient-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+.patient-name-text {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #e4e8f0;
+}
+.patient-hospital-card-container {
+  padding-left: 10px;
+  list-style-type: none;
+}
+.age-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
