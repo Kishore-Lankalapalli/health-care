@@ -173,7 +173,7 @@ const DailyTodoList = () => {
     setTimeout(() => {
       localStorage.setItem("todos", JSON.stringify(dailyChartList));
       changeTodoList(dailyChartList);
-    }, 60 * 1000);
+    }, 86400 * 1000);
   });
 
   const onAddTodoTask = () => {};
